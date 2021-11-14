@@ -13,7 +13,7 @@ public class RSA
     {
     	//as this method generates the public and private key when it is called
     	
-        final int keySize = 2048;//As i mentioned in review 1 document
+        final int keySize = 2048;
         
         KeyPairGenerator keyPairGenerator = KeyPairGenerator.getInstance("RSA");
         keyPairGenerator.initialize(keySize);
